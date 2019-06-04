@@ -1,1 +1,9 @@
-<img [src] = "data.image"  alt="">
+<div class="main">
+    <img [src]="data.image" alt="">
+    <div class="left_icon">
+        <i class="fa fa-angle-left" aria-hidden="true" (click) = "prevItem()"></i>
+    </div>
+    <div class="right_icon">
+        <i class="fa fa-angle-right" aria-hidden="true" (click) = "nextItem()"></i>
+    </div>
+</div>
